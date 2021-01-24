@@ -1,0 +1,30 @@
+/* displaying the sales data in charts */
+.chart-diplay {
+  display: flex;
+}
+
+.chart-diplay>div {
+
+  margin: 10px;
+  padding: 20px;
+}
+
+/* displaying the sales data in table */
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%
+}
+
+th {
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+  <h2>Book Sales Data From 2009 To 2019</h2>
+  <!-- displaying charts for yearly book sale/ -->
+  <div class="chart-diplay">
+   <!-- bar chart -->
+    <div style="width: 100%">
+      <canvas id="bar"></canvas>
+    </div>
+  </div>
+  <div class="chart-diplay">
+     <!-- pie chart -->
+    <div style="width: 100%">
+      <canvas id="pie"></canvas>
+    </div>
+  </div>
+
+  <!-- displaying the sales data in tables -->
+  <table>
+    <tr>
+
+      <th>BookName</th>
+      <th>Author</th>
+      <th>UserRating</th>
+      <th>Review</th>
+      <th>Price</th>
+      <th>Genre</th>
+    </tr>
+    <tr *ngFor="let com of lstcomments">
+
+      <td>{{com.BookName}}</td>
+      <td>{{com.Author}}</td>
+      <td>{{com.UserRating}}</td>
+      <td>{{com.Review}}</td>
+      <td>{{com.Price}}</td>
+      <td>{{com.Genre}}</td>
+    </tr>
+  </table>
